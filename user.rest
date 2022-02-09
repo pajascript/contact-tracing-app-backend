@@ -1,0 +1,13 @@
+POST http://localhost:5000/register
+Content-Type: application/json
+
+{
+    "fullname": "faefea",
+    "address": "fefgewqg",
+    "phonenumber": "658756",
+    "email": "jpatrickpajarillo@gmail.com",
+    "age": "19",
+    "gender": "male",
+    "password": "paja",    
+    "confirmPassword": "paja"
+}
