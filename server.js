@@ -6,7 +6,7 @@ const customerRoutes = require('./routes/customers');
 const visitsRoute = require('./routes/visits');
 const adminRoute = require("./routes/admins");
 
-
+const port = 5000 || process.env.PORT;
 require('dotenv').config();
 
 
@@ -24,4 +24,4 @@ app.use('/', adminRoute);
 
 
 
-app.listen(5000, () => console.log("Server running"));
+app.listen(port, () => console.log("Server running"));
